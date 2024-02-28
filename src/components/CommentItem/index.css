@@ -1,0 +1,133 @@
+.amber {
+  background-color: #f59e0b;
+}
+.abrevation {
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-right: 10px;
+}
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.nobtn {
+  background-color: transparent;
+  border: none;
+}
+
+.CommentList {
+  border-bottom: 1px solid #cbd2d9;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameAndTime {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  font-size: 16px;
+  color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+}
+
+.LikeContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icons {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.liked {
+  color: #0284c7;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.unlike {
+  border: none;
+  background-color: transparent;
+  color: #475569;
+  font-size: 20px;
+}
+.likeImg {
+  height: 30px;
+  width: 35px;
+  margin-right: 20px;
+}
+.deleteImg {
+  height: 30px;
+  width: 35px;
+}
+.commentText {
+  color: #334155;
+  width: 90vw;
+  margin-left: 20px;
+  text-align: left;
+}
+/* Write your CSS here 
+        <li className="CommentList">
+      <div className="nameAndTime">
+        <div className="name">
+          <p className={backgroundClassName}>{name[0]}</p>
+          <p>{name}</p>
+        </div>
+        <p>{time} ago</p>
+      </div>
+      <p className="commentText">{Comment}</p>
+      <div className="icons">
+        <div className="LikeContent">
+          <img
+            src={likeImageSrc}
+            className="likeImg"
+            onClick={onClickLike}
+            alt="like"
+          />
+          <p className={isliked}>Like</p>
+        </div>
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/comments-app/delete-img.png"
+          alt="delete"
+          className="deleteImg"
+          onClick={onClickDelete}
+        />
+      </div>
+    </li>
+*/
